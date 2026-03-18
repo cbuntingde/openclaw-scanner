@@ -2,13 +2,7 @@
 name: openclaw-scanner
 description: OpenClaw health monitor and configuration auditor - proactive diagnostics and system integrity
 metadata:
-  {
-    "openclaw": {
-      "always": true,
-      "requires": { "bins": ["lsof", "ps", "free", "df"], "env": [] },
-      "primaryEnv": null
-    }
-  }
+  {"openclaw": {"always": true, "requires": {"bins": ["lsof", "ps", "free", "df"], "env": []}, "primaryEnv": null}}
 ---
 
 # ClawScanner Plugin

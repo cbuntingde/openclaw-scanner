@@ -30,10 +30,10 @@ This is now an **enterprise-grade OpenClaw plugin** with:
 
 ```bash
 # Install from local directory
-openclaw plugins install ./openclaw-scanner
+openclaw plugins install ./
 
 # Or install with linking (for development)
-openclaw plugins install -l ./openclaw-scanner
+openclaw plugins install -l ./
 ```
 
 ## Configuration
@@ -151,12 +151,6 @@ Works with any HTTP endpoint accepting JSON:
 | Logs | Hourly | Error detection |
 | Skills | Daily | File validation |
 | Memory | Daily | System health |
-
-## Documentation
-
-- [SETUP.md](SETUP.md) - Installation
-- [SOUL.md](SOUL.md) - Identity
-- [HEARTBEAT.md](HEARTBEAT.md) - Schedule
 
 ---
 
