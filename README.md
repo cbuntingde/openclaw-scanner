@@ -97,9 +97,13 @@ The plugin sends JSON payloads to your webhook URL on critical issues.
 
 ### Slack Setup
 
-1. Create an incoming webhook: https://api.slack.com/messaging/webhooks
-2. Copy the webhook URL (`https://hooks.slack.com/services/XXX/YYY/ZZZ`)
-3. Add to config:
+1. Go to https://api.slack.com/apps and create a new app
+2. Select "From scratch" and choose your workspace
+3. Click "Incoming Webhooks" and toggle it **On**
+4. Click "Add New Webhook to Workspace"
+5. Select the channel where alerts should post
+6. Copy the webhook URL (`https://hooks.slack.com/services/XXX/YYY/ZZZ`)
+7. Add to config:
 
 ```json5
 {

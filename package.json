@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "OpenClaw health monitor and configuration auditor - proactive diagnostics and system integrity",
   "main": "dist/index.js",
+  "openclaw.extensions": ["./dist/index.js"],
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
