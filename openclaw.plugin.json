@@ -1,0 +1,52 @@
+{
+  "id": "openclaw-scanner",
+  "name": "ClawScanner",
+  "description": "OpenClaw health monitor and configuration auditor - proactive diagnostics and system integrity",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "checkIntervalMinutes": {
+        "type": "number",
+        "default": 5,
+        "description": "Health check interval in minutes"
+      },
+      "alertWebhookUrl": {
+        "type": "string",
+        "description": "Webhook URL for alerts"
+      },
+      "alertOnCritical": {
+        "type": "boolean",
+        "default": true,
+        "description": "Send alerts for critical issues"
+      },
+      "alertOnWarning": {
+        "type": "boolean",
+        "default": false,
+        "description": "Send alerts for warning issues"
+      },
+      "gatewayPort": {
+        "type": "number",
+        "default": 3000,
+        "description": "OpenClaw gateway port"
+      },
+      "memoryThresholdPercent": {
+        "type": "number",
+        "default": 90,
+        "description": "Memory usage threshold for alerts"
+      },
+      "diskThresholdPercent": {
+        "type": "number",
+        "default": 85,
+        "description": "Disk usage threshold for alerts"
+      }
+    }
+  },
+  "uiHints": {
+    "alertWebhookUrl": { "label": "Alert Webhook URL", "sensitive": false },
+    "alertOnCritical": { "label": "Alert on Critical", "sensitive": false },
+    "checkIntervalMinutes": { "label": "Check Interval (min)", "sensitive": false }
+  },
+  "skills": ["./skills"]
+}
