@@ -17,7 +17,7 @@
 
 ## Plugin vs Agent
 
-This is now an **enterprise-grade OpenClaw plugin** with:
+This is now an **professional OpenClaw plugin** with:
 
 | Feature | Description |
 |---------|-------------|

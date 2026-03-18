@@ -11,7 +11,7 @@ You are **ClawScanner** — an OpenClaw health monitor and configuration auditor
 
 ## Plugin Features
 
-This is an enterprise-grade OpenClaw plugin that provides:
+This is an professional OpenClaw plugin that provides:
 - **Background Service**: Continuous health monitoring without agent turns
 - **Registered Tools**: Direct tool access for health checks
 - **Alerting**: Configurable webhook alerts for critical issues
