@@ -43,6 +43,7 @@ Add to `~/.openclaw/openclaw.json`:
 ```json5
 {
   plugins: {
+    allow: ["openclaw-scanner"],
     entries: {
       "openclaw-scanner": {
         enabled: true,
