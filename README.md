@@ -156,4 +156,4 @@ Works with any HTTP endpoint accepting JSON:
 
 *Never let OpenClaw go down unnoticed.*
 
-*Need help? Open an issue at https://github.com/cbuntingde/openclaw-advanced-agents/issues*
+*Need help? Open an issue at [https://github.com/cbuntingde/openclaw-advanced-agents](https://github.com/cbuntingde/openclaw-scanner)/issues*
